@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Criando a estrutura de uma página</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        #heading {
+            display: flex;
+            background: red;
+            justify-content: space-between;
+        }
+
+        #heading div {
+            width: 80%;
+            display: flex;
+            background: red;
+            justify-content: space-between;
+            margin: 0 auto;
+        }
+
+
+        #heading .h1 {
+            padding: 15px 0;
+            font-size: 20px;
+            text-transform: uppercase;
+            color: white;
+        }
+
+        #heading a {
+            color: white;
+            text-decoration: none;
+            font-family: sans-serif;
+        }
+
+    </style>
+</head>
+<body>
+    <header id="heading">
+        <div>
+        <h1 class = "h1">
+            <a href="#">Home</a>
+        </h1>
+
+        <h2 class="h1">
+            <a href="#">Home</a>
+        </h2>
+    </div>
+
+
+    </header>
+    
+</body>
+</html>
