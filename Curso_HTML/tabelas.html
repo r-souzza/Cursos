@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula sobre tabelas</title>
+
+    <style>
+
+        body{
+            font-family: sans-serif;
+        }
+
+        table{
+            border-collapse: collapse;
+        }
+        
+        table caption {
+            caption-side: top;
+            text-align: left;
+            font-style: italic;
+            font-size: 14px;
+            margin-bottom: 5px;
+
+        }
+
+        table td, table th {
+            border: 1px solid #ccc;
+            padding: 5px;
+            text-align: center;
+        }
+
+        tfoot td, table th {
+            background: #ddd;
+        }
+
+        tfoot td {
+            font-style: italic;
+        }
+
+        .responsive-table{
+            max-width: 100%;
+            overflow-x: auto;
+
+        }
+
+    </style>
+
+</head>
+<body>
+    <p>Exemplo de uma tabela em HTML</p>
+
+    <div class="responsive-table">
+    <table>
+        <caption>Descrição da tabela</caption>
+        <thead>
+            <tr>
+                <th>Título 1</th>
+                <th>Título 2</th>
+                <th>Título 3</th>
+                
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>Campo 1</td>
+                <td>Campo 2</td>
+                <td>Campo 3</td>
+            </tr>
+            <tr>
+                <td colspan="2">Exemplo de uma coluna ocupando 2 espaços</td>
+                <td rowspan="2">Exemplo de uma coluna ocupando 2 linhas</td>
+            </tr>
+            <tr>
+                <td>Campo 1</td>
+                <td>Campo 2</td>
+                
+            </tr>
+
+        </tbody>
+
+        <tfoot>
+            <tr>
+                <td colspan="2" rowspan="2">Campo 1</td>
+                <td>Total:</td>
+            </tr>
+                <td>R$555,00</td>
+            </tr>
+
+        </tfoot>
+
+    </table>
+    
+</body>
+</html>
