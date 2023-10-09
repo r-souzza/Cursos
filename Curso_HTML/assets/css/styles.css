@@ -1,5 +1,22 @@
-.caixa {
-    background: red;
-    height: 120px;
-    width: 120px;
+* {
+    margin: 0;
+    padding: 0;
+
 }
+
+.heading {
+    color: darkblue;
+
+}
+
+body div section p,
+body div section p h1 {
+    color: red;
+
+}
+
+.color-red{
+    color: red;
+}
+
+/* É aconselhável o uso de class */
