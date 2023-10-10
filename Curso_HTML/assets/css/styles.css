@@ -9,6 +9,12 @@
 
 }
 
+[meu-atributo="A"] {
+
+color: blue;
+
+}
+
 body div section p,
 body div section p h1 {
     color: red;
