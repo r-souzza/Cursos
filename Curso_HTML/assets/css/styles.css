@@ -1,13 +1,42 @@
 * {
     margin: 0;
     padding: 0;
-
 }
 
 .heading {
-    color: darkblue;
-
+    transition: all 2s ease-in-out;
 }
+
+.heading:hover {
+    background: red;
+}
+
+a:link {
+    color: blue;
+}
+
+a:visited {
+    color: purple;
+}
+
+a:active {
+    background: darkslategray;
+    color: white;
+}
+
+input:focus {
+    box-shadow: 0 0 5px rgba(0,0,0,0.5);
+    outline: none;
+    border: 1px solid black;
+}
+
+
+
+
+
+
+
+
 
 [meu-atributo="A"] {
 
@@ -15,11 +44,6 @@ color: blue;
 
 }
 
-body div section p,
-body div section p h1 {
-    color: red;
-
-}
 
 .color-red{
     color: red;
