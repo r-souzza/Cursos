@@ -31,6 +31,10 @@ input:focus {
 }
 
 
+p:not(.meio){
+    color:blue
+}
+
 
 
 
